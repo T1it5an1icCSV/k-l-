@@ -1,0 +1,161 @@
+*  {
+margin: 0;
+padding: 0;
+}
+
+body {
+  font-size: 14px;
+}
+
+.main-header {
+  background-image: url(../image/header.jpg);
+  min-height: 820px;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.background-contacts {
+background-color: #010101;
+}
+
+.main-header__contacts {
+  margin: 0 10px;
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.main-header__contact {
+color: #FFF;
+font-family: Nunito Sans;
+font-size: 14px;
+font-weight: 600;
+text-decoration: none;
+}
+
+.wrap-mail{
+ margin-right: auto;
+}
+
+.phone {
+  margin-right: 28px;
+}
+
+.link-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.svg-img {
+margin-right: 8px;
+}
+
+.main-header__contact:hover {
+  color: #4F8FF0;
+
+}
+
+
+
+.background-nav {
+  background-color:rgba(1, 1, 1, 0.76); 
+}
+
+.main-header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 112px;
+  margin: 0 10px;
+  margin-bottom: 150px;
+}
+
+.main-header__logo {
+  text-align: start;
+}
+
+.logo-main {
+color: #4F8FF0;
+font-family: Nunito Sans;
+font-size: 28px;
+font-weight: 900;
+text-transform: uppercase;
+}
+
+.logo-desc {
+  color:#FFF;
+font-family: Nunito Sans;
+font-size: 20px;
+font-weight: 900;
+text-transform: lowercase;
+}
+
+.main-header__nav-item {
+color: #FFF;
+text-align: center;
+font-family: Nunito Sans;
+font-size: 18px;
+font-weight: 700;
+text-decoration: none;
+ margin-right: 32px;
+}
+
+.main-header__nav-item:last-child {
+margin-right: 0;
+}
+
+.main-header__nav-item:hover {
+ color: #4F8FF0;
+}
+
+
+
+.promo {
+text-align: center;
+max-width: 1090px;
+margin: 0 auto;
+}
+
+.promo-text {
+color: #FFF;
+font-family: Nunito Sans;
+font-size: 30px;
+font-weight: 300;
+text-transform: uppercase;
+}
+
+.promo-title {
+color: #4F8FF0;
+font-family: Nunito Sans;
+font-size: 56px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.promo-desc {
+color: #FFF;
+text-align: center;
+font-family: Nunito Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 120%;
+margin-bottom: 48px;
+}
+
+.promo-link {
+padding: 16px 24px;
+color:#FFF;
+text-align: center;
+font-family: Nunito Sans;
+font-size: 14px;
+font-weight: 900;
+line-height: 120%;
+text-transform: uppercase;
+text-decoration: none;
+border: 2px solid #4F8FF0;
+background:#4F8FF0;
+}
